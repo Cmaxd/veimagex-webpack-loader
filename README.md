@@ -1,5 +1,7 @@
 ## veImageX Webpack Loader
 
+一款 webpack 插件，可以将本地图片资源替换成 imagex 的图片，以优化图片和加快加载速度，使用前请先在火山引擎开通[`ImageX图片服务`](https://www.volcengine.cn/product/imagex)
+
 ### 安装
 
 ```
