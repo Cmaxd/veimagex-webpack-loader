@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`"context" option should work with "String" value: errors 1`] = `Array []`;
+
+exports[`"context" option should work with "String" value: result 1`] = `"test/fixtures/file.png"`;
+
+exports[`"context" option should work with "String" value: warnings 1`] = `Array []`;
+
+exports[`"context" option should work without value: errors 1`] = `Array []`;
+
+exports[`"context" option should work without value: result 1`] = `"fixtures/file.png"`;
+
+exports[`"context" option should work without value: warnings 1`] = `Array []`;
