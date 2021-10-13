@@ -1,11 +1,11 @@
 {
   "name": "veimagex-webpack-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "imagex webpack loader",
   "license": "MIT",
   "repository": "Cmaxd/veimagex-webpack-loader",
   "homepage": "https://github.com/Cmaxd/veimagex-webpack-loader",
-  "author": "machao.cheney@bytedance.com",
+  "author": "mchao85@foxmail.com",
   "main": "dist/cjs.js",
   "engines": {
     "node": ">= 10.13.0"

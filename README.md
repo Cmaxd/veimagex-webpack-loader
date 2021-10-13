@@ -1,6 +1,6 @@
 ## veImageX Webpack Loader
 
-一款 webpack 插件，可以将本地图片资源替换成 imagex 的图片，以优化图片和加快加载速度，使用前请先在火山引擎开通[`ImageX图片服务`](https://www.volcengine.cn/product/imagex)
+一款 webpack 插件，可以将代码中引入的本地图片资源上传至云端（veImageX），快速接入 veImageX 提供的云端处理能力，使用前请先在火山引擎开通[`veImageX图片服务`](https://t.zijieimg.com/dnbVv2k/)
 
 ### 安装
 
@@ -21,13 +21,13 @@ yarn add veimagex-webpack-loader --dev
   options: {
     outputPath: 'static/media',
     name: '[name].[hash:8].[ext]',
-    serviceId: '<服务ID>',
-    template: '<模板名称>',
-    domain: '<域名>',
+    serviceId: '<veImageX服务ID>',
+    template: '<veImageX模板名称>',
+    domain: '<veImageX上绑定的域名>',
     params: '<参数数组>', // 如果模板中有url参数则需要指定
-    accessKey: '<accessKey>',
-    secretKey: '<secretKey>',
-    region: 'boe' | 'cn' | 'sg' | 'us' | 'boei18n', // 上传区域
+    accessKey: '<火山引擎accessKey>',
+    secretKey: '<火山引擎secretKey>',
+    region: 'cn' | 'sg' | 'us', // 上传区域
   },
 }
 ```
